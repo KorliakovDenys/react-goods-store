@@ -1,0 +1,18 @@
+@media (max-width: 650px) {
+    .large-screen-only {
+        display: none;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .burger {
+        display: inherit;
+    }
+
+    .logo {
+        grid-area: middle;
+        justify-self: center;
+    }
+}
